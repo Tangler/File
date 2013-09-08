@@ -1,0 +1,19 @@
+{
+    "name": "tangler/file",
+    "description": "File Module for Tangler",
+    "homepage": "http://www.github.com/tangler/file",
+    "keywords": ["php", "tangler", "file", "action", "trigger"],
+    "type": "library",
+    "minimum-stability": "dev" ,
+    "require": {
+        "tangler/core": "dev-master",
+        "phpunit/phpunit": "3.7.*@dev"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Tangler\\": "src/"
+        }
+    }
+}
