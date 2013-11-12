@@ -15,7 +15,7 @@ class CreateFileAction extends AbstractAction implements ActionInterface
 
         $this->parameter->defineParameter('dir', 'string', 'Absolute path of the directory to put new files');
         $this->parameter->defineParameter('filename', 'string', 'Absolute path of the directory to put new files');
-        $this->parameter->defineParameter('content', 'string', 'Absolute path of the directory to put new files');
+        $this->parameter->defineParameter('content', 'string', 'Content template for new files');
     }
 
     public function Run($input)
